@@ -10,6 +10,8 @@
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(50, 50, 50);
+  margin-top: 50px;
+  margin-left: 35%;
 }
 
 .grid div {
@@ -24,6 +26,7 @@
 
 .mini-grid {
   margin-left: 50px;
+  margin-top: 50px;
   width: 80px;
   height: 80px;
   display: flex;
@@ -42,6 +45,7 @@
   -webkit-transition: color 0.25s 0.0833333333s;
   transition: color 0.25s 0.0833333333s;
   position: relative;
+  margin-left: 35%;
 }
 
 #start-button::before, #start-button::after {
